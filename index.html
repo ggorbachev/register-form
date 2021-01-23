@@ -3,7 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Register form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h2>Очень важная регистрация</h2>
+        <div class="form-container">
+          <label for="username">Имя пользователя</label>
+          <input type="text" id="username" placeholder="Введите ваше имя" />
+          <p>Сообщение об ошибке</p>
+        </div>
+        <div class="form-container">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Введите ваш email" />
+          <p>Сообщение об ошибке</p>
+        </div>
+        <div class="form-container">
+          <label for="password">Пароль</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Придумайте ваш пароль"
+          />
+          <p>Сообщение об ошибке</p>
+        </div>
+        <div class="form-container">
+          <label for="confirm-password">Повторите пароль</label>
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Повторите пароль"
+          />
+          <p>Сообщение об ошибке</p>
+        </div>
+        <button type="submit">Завершить регистрацию</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
