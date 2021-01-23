@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Register form</title>
   </head>
@@ -13,12 +14,12 @@
         <div class="form-container">
           <label for="username">Имя пользователя</label>
           <input type="text" id="username" placeholder="Введите ваше имя" />
-          <p>Сообщение об ошибке</p>
+          <span class="small">Сообщение об ошибке</span>
         </div>
         <div class="form-container">
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="Введите ваш email" />
-          <p>Сообщение об ошибке</p>
+          <span class="small">Сообщение об ошибке</span>
         </div>
         <div class="form-container">
           <label for="password">Пароль</label>
@@ -27,7 +28,7 @@
             id="password"
             placeholder="Придумайте ваш пароль"
           />
-          <p>Сообщение об ошибке</p>
+          <span class="small">Сообщение об ошибке</span>
         </div>
         <div class="form-container">
           <label for="confirm-password">Повторите пароль</label>
@@ -36,7 +37,7 @@
             id="confirm-password"
             placeholder="Повторите пароль"
           />
-          <p>Сообщение об ошибке</p>
+          <span class="small">Сообщение об ошибке</span>
         </div>
         <button type="submit">Завершить регистрацию</button>
       </form>
